@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Long</title>
+</head>
+<body>
+<script>
+    let tom = [-3, 5, 1, 3, 2, 10];
+    let Max = tom[0];
+    let index = 0;
+    for (let i = 1; i < tom.length; i++) {
+        if (tom[i] > Max) {
+            Max = tom[i];
+            index = i;
+        }
+    }
+    alert("Max: " + Max + " Thứ Tự " + index);
+</script>
+</body>
+</html>
